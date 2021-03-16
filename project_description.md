@@ -16,7 +16,15 @@ This document gives details about the Illis - Heka project.
         - [Property Page](#properties-page)
         - [Property Submenu](#properties-submenus)
         - [Property Detail Popup](#property-details-popup)
-        - [Pr]
+        - [Property Update Popup](#property-update-popup)
+    - [Financial Flow](#financial-flow)
+        - [Main Page](#financial-main-page)
+        - [Detail Page](#financial-detail-page)
+    - [Calendar Page](#calendar)
+        - [Add event](#add-event)
+        - [Event Detail Popup](#event-details-popup)
+    - [Settings Page](#settings)
+        
         
 # Illis
 
@@ -95,7 +103,7 @@ V1 -> schema generation of the properties tree schema?
 - Connect property to user
 - Connect property to property
 
-### property update popup
+### Property update popup
 - V1-> if locked doesn’t allow to change some fields
 - Delete property 
 
@@ -103,7 +111,7 @@ V1 -> schema generation of the properties tree schema?
 
 No sub menu
 
-### Main Page
+### Financial Main Page
 - bar chart of balance time interval can change to week, month, quarter, year
 - Paginated income and outbound sorted from latest created to oldest
 - Filtering start and end date 
@@ -140,6 +148,8 @@ Related user’s options
 ## Settings
 
 General settings for the distributions settings
+form to show the current settings 
+when the values are changed the save button
 
 - official e-mail
 - notification setting
